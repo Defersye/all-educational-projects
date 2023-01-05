@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'OpenSans_Italic';
+  src: url(../fonts/OpenSans-Italic.ttf);
+}
+
+.title_page {
+  font-family: 'Capsmall';
+  font-weight: 400;
+  font-size: 64px;
+  text-align: left;
+  width: 940px;
+  height: auto;
+  padding: 126px 490px;
+}
+
+.content {
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 1px;
+}
+
+.real_content {
+  width: 1040px;
+  height: auto;
+  margin: auto;
+}
+
+h2 {
+  margin: 40px 0px;
+  font-family: 'OpenSans';
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.anchors {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.25);
+  border-left: 20px solid black;
+  padding: 10px 0px;
+  margin: 20px 0px;
+}
+
+ul {
+  margin: 0px;
+  list-style: circle;
+}
+
+.anchor {
+  margin: 0px;
+  font-family: 'OpenSans_Italic';
+  font-weight: 100;
+  font-size: 24px;
+  padding: 10px 0px;
+  color: black;
+}
+
+.anchor:hover {
+  text-decoration-line: underline;
+  text-decoration-color: gray;
+}
+
+.txt {
+  font-family: 'OpenSans';
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  margin: 20px 0px;
+}
+
+li {
+  font-family: 'OpenSans';
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.text {
+  margin: 20px 0px;
+}
+
+.image {
+  margin: 20px 0px;
+}
+
+.navigation {
+  width: 1040px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #ffa100;
+  text-decoration: none;
+  font-family: 'OpenSans';
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.to_ {
+  display: flex;
+  align-items: center;
+
+}
+
+.arrow {
+  height: 18px;
+  width: 9px;
+  padding: 0px 8px;
+}

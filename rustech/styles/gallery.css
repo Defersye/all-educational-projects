@@ -1,0 +1,40 @@
+.wrapper {
+  width: 1920px;
+  height: auto;
+  margin: 0px auto;
+}
+
+.content {
+  width: 1120px;
+  margin: auto;
+  height: 1880px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -200px;
+  margin-bottom: 144px;
+}
+
+.rows {
+  display: flex;
+  width: 1120px;
+  justify-content: space-between;
+}
+
+.main_gallery {
+  background: url(../images/gallery.png), linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 30.21%, rgba(27, 23, 22, 0) 100%), url(../images/neurons.png);
+  background-size: 1920px 1000px;
+  width: 1920px;
+  height: 1000px;
+  margin: 0px auto 0px auto;
+}
+
+.title_gallery {
+  font-family: 'Capsmall';
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  width: 413px;
+  height: 74px;
+  padding: 350px 0px 0px 415px;
+}

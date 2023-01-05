@@ -1,0 +1,271 @@
+@font-face {
+  font-family: Ramona-Bold;
+  src: url(fonts/Ramona-Bold.ttf);
+}
+
+@font-face {
+  font-family: Ramona-Light;
+  src: url(fonts/Ramona-Light.ttf);
+}
+
+body {
+  background-color: #101010;
+}
+
+.wrapper {
+  background-color: #101010;
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+
+
+/* text content */
+p,
+.p,
+.contact {
+  text-decoration: none;
+  color: #555;
+  font-family: Ramona-Light;
+  font-size: 12.8px;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Ramona-Bold';
+  font-size: 48.83px;
+  color: #800000;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-family: Ramona-Bold;
+  font-size: 25px;
+  color: #BBBBBB;
+}
+
+h4 {
+  font-family: 'Ramona-Light';
+  font-size: 16px;
+  color: #BBBBBB;
+  margin: 0;
+}
+
+._menu {
+  text-decoration: none;
+  font-family: Ramona-Bold;
+  font-size: 16px;
+  color: #BBBBBB;
+}
+
+._menu:hover {
+  color: #800000;
+  filter: drop-shadow(0 0 10px #fff);
+}
+
+
+/* header */
+.header {
+  width: 100%;
+  background-color: #101010;
+  filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.5));
+}
+
+.header_content {
+  width: 1160px;
+  height: 56px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 89.29px;
+  height: 40px;
+}
+
+.about_ad {
+  width: 194px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+
+.numbers {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+
+
+
+/* title */
+.title {
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 64px 20px;
+}
+
+
+
+
+/* menu */
+.menu {
+  width: 960px;
+  margin: auto;
+  display: flex;
+  background-color: #1d1d1d;
+  filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.75));
+  transform: skewX(-10deg);
+}
+
+.colored_line {
+  width: 8px;
+  height: 64px;
+  background-color: #800000;
+}
+
+.points {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+._menu {
+  transform: skewX(10deg);
+}
+
+.under_menu {
+  display: flex;
+  align-items: center;
+}
+
+.down {
+  width: 8px;
+  height: 6px;
+  padding-left: 8px;
+  transform: skewX(10deg);
+}
+
+.line {
+  height: 64px;
+  width: 2px;
+  background-color: #101010;
+}
+
+._line {
+  background-color: #1d1d1d;
+}
+
+
+
+
+/* ads */
+.ads {
+  margin: auto;
+  margin-top: -33px;
+  /* потом посавь 34, хотя хз */
+  height: 400px;
+  width: 1160px;
+  background-color: #000;
+}
+
+
+
+
+/* dots */
+.dots {
+  margin: 32px auto;
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colored_dot {
+  height: 12px;
+  width: 12px;
+  background-color: #800000;
+  border-radius: 50%;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #1D1D1D;
+  border-radius: 50%;
+}
+
+
+
+
+/* ad */
+.ad {
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 72px;
+  height: 250px;
+  width: 860px;
+  filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.75));
+  transform: skewX(-10deg);
+}
+
+.sad {
+  height: 250px;
+  width: 860px;
+  filter: hue-rotate(150deg);
+  /* transform: skewX(10deg); */
+}
+
+
+
+
+/* footer */
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #101010;
+  filter: drop-shadow(0px -6px 15px rgba(0, 0, 0, 0.5));
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+.content {
+  margin: auto;
+  width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adress,
+.contacts {
+  height: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contacts {
+  text-align: right;
+}
+
+.title_bottom {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}

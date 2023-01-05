@@ -1,0 +1,105 @@
+.main {
+	background: url(../images/mind.png),
+		linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		linear-gradient(
+			0deg,
+			#000000 0%,
+			rgba(0, 0, 0, 0) 30.21%,
+			rgba(27, 23, 22, 0) 100%
+		),
+		url(../images/neurons.png);
+	background-size: 1920px 1000px;
+	width: 1920px;
+	height: 1000px;
+	margin: 0px auto 0px auto;
+}
+
+.screen {
+	align-content: center;
+	width: 580px;
+	height: 319px;
+	padding: 160px 0px 0px 380px;
+}
+
+.GAGPK {
+	font-family: "OpenSans";
+	font-weight: 300;
+	font-size: 16px;
+	text-align: center;
+}
+
+.title {
+	font-family: "Capsmall";
+	font-weight: 400;
+	font-size: 72px;
+	text-align: center;
+}
+
+._2022 {
+	font-family: "OpenSans";
+	font-weight: 300;
+	font-size: 19.2px;
+	text-align: center;
+}
+
+.text_wrapper {
+	margin: 160px 0px 0px 396px;
+}
+
+.text {
+	width: 676px;
+	height: auto;
+	font-family: "OpenSans";
+	font-weight: 300;
+	font-size: 24px;
+	text-indent: 20px;
+}
+
+.parts {
+	background-color: aqua;
+	height: 720px;
+	width: 960px;
+	display: flex;
+	margin: 299px auto 144px auto;
+}
+
+.part {
+	background-size: 320px 720px;
+	height: 720px;
+	width: 320px;
+	display: flex;
+	background-image: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0) 0%,
+		rgba(0, 0, 0, 0.1) 60.94%,
+		rgba(0, 0, 0, 0.53) 74.48%,
+		#000000 100%
+	);
+}
+
+.p1 {
+	background-image: url(../images/1_article.png);
+}
+
+.p2 {
+	background-image: url(../images/2_article.png);
+}
+
+.p3 {
+	background-image: url(../images/3_article.png);
+}
+
+.a_text {
+	font-family: "OpenSans";
+	font-weight: 300;
+	font-size: 16px;
+	text-decoration: none;
+	color: #fdfdfd;
+}
+
+.part_text {
+	font-family: "OpenSans";
+	font-weight: 300;
+	font-size: 16px;
+	margin: auto 129px 40px 40px;
+}
